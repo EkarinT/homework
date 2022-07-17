@@ -1,69 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 75;
-            margin: 0 12.5%;
-            background-color: aqua;
-        }
-
-        .link {
-            width: 25%;
-            height: 50vh;
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-end;
-        }
-
-        a {
-            margin: 0 8px;
-            padding: 2px 10px ;
-            text-decoration: none;
-            font-size: 32px;
-            background-color: rgb(51, 215, 48);
-            color: white;
-            border-radius: 3px;
-        }
-
-        a:active {
-            background-color: rgb(51, 180, 48);
-        }
-
-        .motto {
-            display: flex;
-            font-size: 32px;
-            height: 50vh;
-            width: 100%;
-            justify-content: center;
-        }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        margin: 0 12.5%;
+        background-color: aqua;
+        height: auto;
+      }
+      .link {
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin-top: 5%;
+      }
+      a {
+        margin: 0 8px;
+        padding: 2px 10px;
+        text-decoration: none;
+        font-size: 32px;
+        background-color: rgb(51, 215, 48);
+        color: white;
+        border-radius: 3px;
+      }
+      a:active {
+        background-color: rgb(51, 180, 48);
+      }
+      .motto {
+        display: flex;
+        font-size: 32px;
+        height: 50vh;
+        width: 100%;
+        justify-content: center;
+      }
+      img {
+        width: 25vw;
+        height: 75vh;
+        margin-top: 10%;
+        border-radius: 10px;
+      }
     </style>
-</head>
-
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="link">
-            <a href="#">Profile</a>
-            <a href="#">Friends</a>
-        </div>
-        <div class="motto">
-            <h1>จงเป็นตัวของตัวเอง</h1>
-        </div>
+      <div>
+        <img src="./pic/profilepic.jpg" alt="myProfile" srcset="" />
+      </div>
+      <div class="link">
+        <a href="./profile.html">Profile</a>
+        <a href="./friends.html">Friends</a>
+      </div>
+      <div class="motto">
+        <h1>"จงเป็นตัวของตัวเอง"</h1>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
